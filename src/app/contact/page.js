@@ -16,10 +16,10 @@ export default function ContactPage() {
 
     emailjs
       .sendForm(
-        "service_dnlw2l5", // EmailJS Service ID
-        "template_5lin8lv", // EmailJS Template ID
+        "service_bhaytgp", // EmailJS Service ID
+        "template_p4z11aj", // EmailJS Template ID
         formRef.current,
-        "GihJAGVBYHxbNNHeV" // EmailJS Public Key
+        "XNRV72VK4NI-5oVC-" // EmailJS Public Key
       )
       .then(
         () => {
@@ -28,10 +28,13 @@ export default function ContactPage() {
           setTimeout(() => setStatus("idle"), 5000); // Reset after 5 seconds
         },
         (err) => {
-          setStatus("error");
-          setErrorMessage("Failed to send the message. Please try again.");
-          console.error(err);
-        }
+  setStatus("error");
+  console.error("FULL ERROR:", err);
+  console.log("TEXT:", err.text);
+  console.log("STATUS:", err.status);
+
+  setErrorMessage(err.text || "Something went wrong");
+}
       );
   };
 
