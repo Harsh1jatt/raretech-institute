@@ -49,7 +49,7 @@ export default function ContactPage() {
             "@type": "LocalBusiness",
             "name": "RareTech Institute Of Information Technology",
             "image": "https://raretechinstitute.com/logo.png",
-            "telephone": ["+916280009096", "+917589434135"],
+            "telephone": ["+916280009096"],
             "email": "md331148@gmail.com",
             "address": [
               {
@@ -59,13 +59,6 @@ export default function ContactPage() {
                 "addressRegion": "Punjab",
                 "addressCountry": "IN"
               },
-              {
-                "@type": "PostalAddress",
-                "streetAddress": "Tikoni Park Area",
-                "addressLocality": "Ludhiana",
-                "addressRegion": "Punjab",
-                "addressCountry": "IN"
-              }
             ],
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -133,20 +126,6 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  {/* Tikoni Park Branch */}
-                  <div className="flex items-start gap-4 group">
-                    <div className="w-12 h-12 bg-blue-50 text-[#FF7A00] rounded-full flex items-center justify-center flex-shrink-0 border border-blue-100 group-hover:bg-[#FF7A00] group-hover:text-white transition-colors duration-300">
-                      <MapPin size={20} />
-                    </div>
-                    <div>
-                      <h3 className="font-bold text-gray-900 text-lg">Tikoni Park Branch</h3>
-                      <address className="text-gray-600 mt-1 not-italic leading-relaxed text-sm">
-                        Tikoni Park Area, <br />
-                        Ludhiana, Punjab, India
-                      </address>
-                    </div>
-                  </div>
-
                   {/* Phone Contacts */}
                   <div className="flex items-start gap-4 group">
                     <div className="w-12 h-12 bg-blue-50 text-[#FF7A00] rounded-full flex items-center justify-center flex-shrink-0 border border-blue-100 group-hover:bg-[#FF7A00] group-hover:text-white transition-colors duration-300">
@@ -158,10 +137,6 @@ export default function ContactPage() {
                         <p>
                           <span className="font-semibold text-gray-800">Mandeep Singh:</span> <br/>
                           <a href="tel:+916280009096" className="hover:text-[#FF7A00] transition-colors">+91 62800 09096</a>
-                        </p>
-                        <p>
-                          <span className="font-semibold text-gray-800">Harshdeep:</span> <br/>
-                          <a href="tel:+917589434135" className="hover:text-[#FF7A00] transition-colors">+91 75894 34135</a>
                         </p>
                       </div>
                     </div>
