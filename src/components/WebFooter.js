@@ -82,12 +82,6 @@ export default function WebFooter() {
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
-                  <Phone size={16} className="text-[#FF7A00]" />
-                  <a href="tel:+917589434135" className="font-semibold hover:text-[#FF7A00] transition-colors">
-                    Harshdeep: +91 75894 34135
-                  </a>
-                </div>
-                <div className="flex items-center gap-3">
                   <Mail size={16} className="text-[#FF7A00]" />
                   <a href="mailto:md331148@gmail.com" className="font-semibold hover:text-[#FF7A00] transition-colors">
                     md331148@gmail.com
