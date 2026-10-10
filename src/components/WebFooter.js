@@ -173,6 +173,12 @@ export default function WebFooter() {
             <span className="hidden sm:inline"> | </span><br className="sm:hidden" />
             Designed & Developed in Ludhiana. All Rights Reserved.
           </p>
+          <a
+          href="https://www.hdwebstudios.in/"
+          target="_blank"
+          rel="noopener noreferrer">
+            HD Web Studios
+            </a>
         </div>
       </footer>
 
